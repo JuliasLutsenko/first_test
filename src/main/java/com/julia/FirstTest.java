@@ -2,6 +2,13 @@ package com.julia;
 
 public class FirstTest {
     public static void main(String[] args) {
-        System.out.println("World");
+        Cat cat = new Cat();
+        cat.show();
+    }
+}
+
+class Cat {
+    void show() {
+        System.out.println("Cat");
     }
 }
